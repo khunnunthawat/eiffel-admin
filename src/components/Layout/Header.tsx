@@ -11,7 +11,7 @@ const { Text } = Typography;
 
 const header =
   'p-0 shadow-lg relative flex justify-between h-20 z-10 items-center bg-white';
-const fixed = 'fixed top-0 right-0 w-64 md:w-full z-30';
+const fixed = 'fixed top-0 right-0 md:w-full z-30 bg-white';
 const collapsed = 'w-20';
 const button =
   'w-16 h-16 text-center text-lg cursor-pointer hover:text-blue-500 hover:bg-gray-200 ease-out';
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
         title={
           <>
             <span className='mr-1'>
-              <Text type='secondary'>Hi</Text>
+              <Text type='secondary'>Hi,</Text>
             </span>
             <span>Username</span>
             <Avatar className='ml-2' icon={<UserOutlined />} />
