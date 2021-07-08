@@ -2,6 +2,7 @@ import 'antd/dist/antd.css';
 import 'tailwindcss/tailwind.css';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import HeaderLayout from '@/components/Layout/HeaderLayout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -10,7 +11,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title>Admin Eiffel</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Component {...pageProps} />
+      <HeaderLayout>
+        <Component {...pageProps} />
+      </HeaderLayout>
     </>
   );
 }
