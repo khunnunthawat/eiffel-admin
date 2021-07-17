@@ -85,7 +85,7 @@ const HeaderLayout: React.FC<HeaderLayoutProps> = ({ collapsed, toggleCollapse }
               title={
                 <>
                   <span style={{ color: '#999', marginRight: 4 }}>Hi,</span>
-                  <span>Soleil</span>
+                  <span>Khunnunthawat</span>
                   <Avatar style={{ marginLeft: 8 }} icon={<UserOutlined />} />
                 </>
               }
